@@ -1,0 +1,126 @@
+# =====================
+# == Python / Django ==
+# =====================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.db
+
+# Local env files
+.env
+.env.*
+
+# Django media and static (optional)
+media/
+staticfiles/
+
+# VS Code settings
+.vscode/
+
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+.Python
+pip-selfcheck.json
+
+# Migrations (optional — only ignore if auto-generated and reproducible)
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/*.pyc
+
+# MyPy and Pyright
+.mypy_cache/
+.pyright/
+.dmypy.json
+
+# ===================
+# == Flutter Mobile ==
+# ===================
+
+# IDEs
+.idea/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+android/.gradle
+android/.idea
+android/local.properties
+ios/.generated
+ios/.symlinks
+ios/Flutter/Flutter.podspec
+ios/Pods/
+macos/Pods/
+macos/Flutter/ephemeral/
+linux/flutter/
+build/
+web/.dart_tool/
+web/build/
+windows/flutter/
+*.iml
+
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# iOS
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/.dart_tool/
+
+# Android
+android/app/debug
+android/app/profile
+android/app/release
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+DerivedData/
+
+# Google service files (manual)
+google-services.json
+GoogleService-Info.plist
+
+# Firebase cache
+firebase.json
+
+# Others
+*.lock
+*.log
+*.DS_Store
+
+# Tests outputs
+coverage/
+
+# ====================
+# == General purpose ==
+# ====================
+
+# System
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
