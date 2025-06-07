@@ -8,8 +8,8 @@ servers:
     # apps    
     apps:
       chepetronicos:
-        app_name: chepetronicos
-        repository: https://github.com/StevenMZH/LocusMe.git
+        app_name: Chepetronica
+        repository: https://github.com/StevenMZH/Chepetronica.git
         branch: main
         services: docker-compose.yml
         events: 
