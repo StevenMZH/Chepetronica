@@ -7,7 +7,7 @@ servers:
 
     # apps    
     apps:
-      chepetronicos:
+      chepetronica:
         app_name: Chepetronica
         repository: https://github.com/StevenMZH/Chepetronica.git
         branch: main
@@ -38,15 +38,20 @@ events:
   #     # - gcloud compute firewall-rules create allow-ssh --allow tcp:22 --source-ranges=0.0.0.0/0 --target-tags=ssh --description="Allow SSH"--direction=INGRESS --project=servercenter-462007
 
 
-  init:
-    when: call
 
+  reboot:
     push: 
       - from: .env.dev
         to: .
 
       - from: docker-compose.yml 
-        to: .
+        to: ./Chepetronica
+
+
+
+
+  init:
+    when: call
 
     run_local:
       - hermes deploy
