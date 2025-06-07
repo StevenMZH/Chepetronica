@@ -1,5 +1,5 @@
 import BarChart from "../components/anims/BarChart";
-import ProjectTitle from "../components/anims/projectTitle";
+import ProjectTitle from "../components/anims/ProjectTitle";
 
 export function Landing() {
     return (
