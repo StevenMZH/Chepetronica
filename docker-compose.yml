@@ -28,12 +28,12 @@ services:
       - .env.dev
     restart: unless-stopped
 
-  cache_db:
-    image: redis:alpine
-    container_name: cache_db
-    volumes:
-      - redis_data:/data
-    restart: always  
+  # cache_db:
+  #   image: redis:alpine
+  #   container_name: cache_db
+  #   volumes:
+  #     - redis_data:/data
+  #   restart: always  
 
   nginx:
     image: nginx:latest
