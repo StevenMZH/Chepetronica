@@ -9,7 +9,7 @@ services:
       - .env.dev
     depends_on:
       - main_db
-      - cache_db
+      # - cache_db
     # Hot reload
     # volumes:
     #   - ./backend:/app
